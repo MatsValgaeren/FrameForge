@@ -2,6 +2,8 @@
 
 *A tool to quickly edit video files.*
 
+*Watch Here: [YouTube Video](https://youtu.be/SPfN98WdyZ4)
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Features
@@ -51,7 +53,7 @@ python frameforge.py
 5. Change other settings.
 6. **Click "Create Video"** (or the appropriate action button) to process your file.
 
-**Watch the Demo here:** [YouTube Video](soon)
+**Watch the Demo here:** [YouTube Video](https://youtu.be/SPfN98WdyZ4)
 
 ## Credits
 

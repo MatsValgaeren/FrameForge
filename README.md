@@ -24,11 +24,13 @@
 
 </details>
 
+
 ## About
 
 FrameForge is a python script you can use to do some quick video edits.
 
 *Watch Demo Video Here: [YouTube Video](https://youtu.be/SPfN98WdyZ4)*
+
 
 ## Features
 
@@ -38,6 +40,7 @@ FrameForge is a python script you can use to do some quick video edits.
 -   **Combine Videos:** Merge two videos into one.
 -   **Image to Video:** Create a video collage from a selected image directory.
 -   **Extract Audio:** Extract the audio track from a video file.
+
 
 ## Installation
 
@@ -79,6 +82,7 @@ FrameForge is a python script you can use to do some quick video edits.
     python frameforge.py
     ```
 
+
 ## Usage
 
 1.  **Run FrameForge.exe** (or the Python script).
@@ -90,11 +94,13 @@ FrameForge is a python script you can use to do some quick video edits.
 
 ***Watch the Demo here: [YouTube Video](https://youtu.be/SPfN98WdyZ4)***
 
+
 ## Roadmap & Contributing
 
 See the [open issues](https://github.com/MatsValgaeren/FrameForge/issues) to track planned features, known bugs, and ongoing work.
 
 If you encounter any bugs or have feature requests, please submit them as new issues there.  Your feedback and contributions help improve FrameForge!
+
 
 ## Credits
 
@@ -102,6 +108,7 @@ If you encounter any bugs or have feature requests, please submit them as new is
 -   Powered by:
     -   [FFmpeg](https://github.com/FFmpeg/FFmpeg)
     -   [PyQt6](https://pypi.org/project/PyQt6/)
+
 
 ## License
 

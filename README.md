@@ -18,8 +18,7 @@
   - [Standalone App (Windows)](#standalone-app-windows)
   - [Python Script](#python-script)
 - [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
+- [Roadmap & Contributing](#roadmap--contributing)
 - [Credits](#credits)
 - [License](#license)
 

@@ -1,4 +1,8 @@
-# FrameForge
+<h1>
+  <img src="https://github.com/user-attachments/assets/5f481448-a29b-4bbb-9b9f-5981def0520c" width="30" style="vertical-align: middle; margin-right: 10px;">
+  FrameForge
+  <img src="https://github.com/user-attachments/assets/5f481448-a29b-4bbb-9b9f-5981def0520c" width="30" style="vertical-align: middle; margin-right: 10px;">
+</h1>
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/username/repo/ci.yml?branch=main)](https://github.com/MatsValgaeren/FrameForge/actions)
 [![Coverage](https://img.shields.io/codecov/c/github/username/repo)](https://codecov.io/gh/username/repo)
@@ -33,7 +37,6 @@ FrameForge is a python script you can use to do some quick video edits.
 
 
 ## Features
-
 -   **10 MB / Discord Size:** Compress a video to ensure it is under 10 MB, making it suitable for Discord uploads.
 -   **Trim / Cut Video:** Choose the start and end frames to extract a specific section of your video.
 -   **Change Speed:** Adjust the playback speed of your video.

@@ -26,6 +26,7 @@ import sys
 
 # UI-Specific Imports (Third-Party)
 from PyQt6.QtCore import Qt
+from PyQt6.QtGui import QIcon
 from PyQt6.QtWidgets import (
     QApplication,
     QWidget,
@@ -152,6 +153,11 @@ class FFmpegGUI(QWidget):
         self.side_ui_size = 80  # Standard width for side UI elements
 
         self.setWindowTitle("FrameForge")
+        icon_filename = "FrameForgeLogo.ico"
+        if os.path.exists(icon_filename):
+            self.setWindowIcon(QIcon(icon_filename))
+        else:
+            print("Can't find logo file.")
         self.layout = QVBoxLayout()
         self.stacked_widget = QStackedWidget()
 

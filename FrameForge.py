@@ -153,11 +153,7 @@ class FFmpegGUI(QWidget):
         self.side_ui_size = 80  # Standard width for side UI elements
 
         self.setWindowTitle("FrameForge")
-        icon_filename = "FrameForgeLogo.ico"
-        if os.path.exists(icon_filename):
-            self.setWindowIcon(QIcon(icon_filename))
-        else:
-            print("Can't find logo file.")
+        self.set_window_logo()
         self.layout = QVBoxLayout()
         self.stacked_widget = QStackedWidget()
 
@@ -192,6 +188,19 @@ class FFmpegGUI(QWidget):
         self.layout.addWidget(self.stacked_widget)
         self.layout.setStretch(1, 0)
         self.setLayout(self.layout)
+
+    def set_window_logo(self):
+        try:
+            base_path = sys._MEIPASS
+        except Exception:
+            base_path = os.path.abspath(".")
+
+        icon_path = os.path.join(base_path, ("FrameForgeLogo.ico"))
+        print(icon_path)
+        if os.path.exists(icon_path):
+            self.setWindowIcon(QIcon(icon_path))
+        else:
+            print("Can't find logo file.")
 
     def update_directory_fields(self):
         """
